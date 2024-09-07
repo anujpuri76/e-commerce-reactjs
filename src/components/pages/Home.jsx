@@ -15,9 +15,6 @@ import { FaHeadset } from "react-icons/fa6";
 import { TbArrowZigZag } from "react-icons/tb";
 import { GoDownload } from "react-icons/go";
 import { FaArrowCircleRight } from "react-icons/fa";
-import { Footer } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
-
 // import Carousel from 'react-bootstrap/Carousel';
 
 
@@ -542,7 +539,7 @@ const Home = () => {
                 <div>
                     <div className="tie06">
                         <div style={{ display: 'flex', cursor: 'pointer', alignItems: 'center', fontSize: '15px', fontFamily: 'sans-serif', margin: '10px' }}><h2>Furniture Deals</h2>
-                            <div style={{ paddingLeft: '1150px', paddingTop: '15px', fontSize: '30px', color: '#6A9C89', cursor: 'pointer', paddingLeft: '1250px' }}>
+                            <div style={{ paddingLeft: '1150px', paddingTop: '15px', fontSize: '30px', color: '#6A9C89', cursor: 'pointer' }}>
                                 <FaArrowCircleRight />
                             </div>
                         </div>
@@ -589,19 +586,19 @@ const Home = () => {
                                 </div>
                             </div>
                             <section class="layout4">
-                                <div> <div className="grow2"> <img src="images/T01.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V1.png" alt="..." ></img>
                                     <h3 class="product-title2">Smart Watches</h3>
                                     <p class="product-price2">Min. 40%Off</p>
                                 </div></div>
-                                <div> <div className="grow2"> <img src="images/T02.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V2.png" alt="..." ></img>
                                     <h3 class="product-title2">Headset</h3>
                                     <p class="product-price2">Min. 50%Off</p>
                                 </div></div>
-                                <div> <div className="grow2"> <img src="images/T03.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V3.png" alt="..." ></img>
                                     <h3 class="product-title2">True Wireless</h3>
                                     <p class="product-price2">Special Offer</p>
                                 </div></div>
-                                <div> <div className="grow2"> <img src="images/T04.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V4.png" alt="..." ></img>
                                     <h3 class="product-title2">Smart Lighting</h3>
                                     <p class="product-price2">Special Offer</p>
                                 </div></div>
@@ -616,19 +613,19 @@ const Home = () => {
                                 </div>
                             </div>
                             <section class="layout4">
-                                <div> <div className="grow2"> <img src="images/T01.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V5.png" alt="..." ></img>
                                     <h3 class="product-title2">Smart Watches</h3>
                                     <p class="product-price2">Min. 40%Off</p>
                                 </div></div>
-                                <div> <div className="grow2"> <img src="images/T02.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V6.png" alt="..." ></img>
                                     <h3 class="product-title2">Headset</h3>
                                     <p class="product-price2">Min. 50%Off</p>
                                 </div></div>
-                                <div> <div className="grow2"> <img src="images/T03.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V7.png" alt="..." ></img>
                                     <h3 class="product-title2">True Wireless</h3>
                                     <p class="product-price2">Special Offer</p>
                                 </div></div>
-                                <div> <div className="grow2"> <img src="images/T04.png" alt="..." ></img>
+                                <div> <div className="grow2"> <img src="images/V8.png" alt="..." ></img>
                                     <h3 class="product-title2">Smart Lighting</h3>
                                     <p class="product-price2">Special Offer</p>
                                 </div></div>
@@ -641,64 +638,15 @@ const Home = () => {
 
                 </div>
             </div>
-
-
-
             {/* <--------------------Footer-------------------->   */}
 
 
-            <Footer bgDark>
-                <div className="w-full">
-                    <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4">
-                        <div>
-                            <Footer.Title title="Company" />
-                            <Footer.LinkGroup col>
-                                <Footer.Link href="#">About</Footer.Link>
-                                <Footer.Link href="#">Careers</Footer.Link>
-                                <Footer.Link href="#">Brand Center</Footer.Link>
-                                <Footer.Link href="#">Blog</Footer.Link>
-                            </Footer.LinkGroup>
-                        </div>
-                        <div>
-                            <Footer.Title title="help center" />
-                            <Footer.LinkGroup col>
-                                <Footer.Link href="#">Discord Server</Footer.Link>
-                                <Footer.Link href="#">Twitter</Footer.Link>
-                                <Footer.Link href="#">Facebook</Footer.Link>
-                                <Footer.Link href="#">Contact Us</Footer.Link>
-                            </Footer.LinkGroup>
-                        </div>
-                        <div>
-                            <Footer.Title title="legal" />
-                            <Footer.LinkGroup col>
-                                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                                <Footer.Link href="#">Licensing</Footer.Link>
-                                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
-                            </Footer.LinkGroup>
-                        </div>
-                        <div>
-                            <Footer.Title title="download" />
-                            <Footer.LinkGroup col>
-                                <Footer.Link href="#">iOS</Footer.Link>
-                                <Footer.Link href="#">Android</Footer.Link>
-                                <Footer.Link href="#">Windows</Footer.Link>
-                                <Footer.Link href="#">MacOS</Footer.Link>
-                            </Footer.LinkGroup>
-                        </div>
-                    </div>
-                    <div className="w-full bg-gray-700 px-4 py-6 sm:flex sm:items-center sm:justify-between">
-                        <Footer.Copyright href="#" by="Flowbite™" year={2022} />
-                        <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-                            <Footer.Icon href="#" icon={BsFacebook} />
-                            <Footer.Icon href="#" icon={BsInstagram} />
-                            <Footer.Icon href="#" icon={BsTwitter} />
-                            <Footer.Icon href="#" icon={BsGithub} />
-                            <Footer.Icon href="#" icon={BsDribbble} />
-                        </div>
-                    </div>
-                </div>
-            </Footer>
+            {/* <--------------------Footer-------------------->   */}
+            <div style={{alignItems:'center',paddingLeft:'50%',paddingTop:'50px',paddingBottom:'50px'}}>
+            <a href="{Login}">SOMETHING</a>
+            </div>
         </>
+        
     )
 }
 export default Home
